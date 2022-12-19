@@ -12,10 +12,6 @@ export class AppComponent {
   author = {
     name:"Emily Sampson",
     title:"Kindergartener",
-    languages: [
-      "Javascript",
-      "C#",
-      "Java"
-    ]
+    
   }
 }
