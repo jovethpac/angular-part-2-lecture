@@ -10,8 +10,21 @@ export class SkillsListComponent implements OnInit {
     "Javascript",
     "C#",
     "Java",
-    "Python"
+    "Python",
+    "Typescript"
   ]
+  
+  //creating a method/function without using keyword function
+  // clickEventFunction() {
+  //   console.log("You clicked the thing!");
+  // }
+
+  //function that removes a skill
+removeSkill(){
+this.languages.pop();
+//use this if you are referencing a variable within the same typescript file
+}
+
   constructor() { }
 
   ngOnInit(): void {
