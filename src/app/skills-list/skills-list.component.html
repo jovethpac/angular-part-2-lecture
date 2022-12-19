@@ -1,6 +1,6 @@
 <h3>Skills</h3>
-<ol>
-  <li>{{skills[0]}}</li>
-  <li>{{skills[1]}}</li>
-  <li>{{skills[2]}}</li>
-</ol>
+<ul>
+  <!--for(let language (first iteration) of languages is the name of the array)-->
+  <li *ngFor="let language of languages">{{language}}</li>
+
+</ul>

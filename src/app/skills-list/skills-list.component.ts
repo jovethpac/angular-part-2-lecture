@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skills-list.component.css']
 })
 export class SkillsListComponent implements OnInit {
-  skills = [
+  languages = [
     "Javascript",
     "C#",
-    "Java"
+    "Java",
+    "Python",
+    "React",
+    "Angular"
   ]
   constructor() { }
 
